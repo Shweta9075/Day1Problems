@@ -6,8 +6,8 @@ public class SumCmdLineArgs {
         int num;
         System.out.println("Calculates Sum for below Integers");
         for(int i=0;i<num.length;i++){
-            System.out.println(num[i]);
-            sum = sum + Integer.parseInt(num[i]);
+            System.out.println("Enter  number : );
+            sum = sum + num;
         }
         System.out.println("Sum :" + sum);
     }
